@@ -1,0 +1,90 @@
+*{
+  box-sizing: Border-box;
+
+}
+
+body {
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25em;
+
+}
+
+header {
+  min-height: 100vh;
+background-color:rgb(242, 157, 87);
+/*
+background: linear-gradient(to bottom right, blue, green);*/
+}
+
+nav {
+  background-color: black;
+
+  position:fixed;
+  width: 100%;
+
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 1em;
+}
+
+/*nav a:visited {
+  color:blue;
+}
+*/
+
+nav ul {
+  margin: 0;
+}
+
+header main {
+padding-top: 3em;
+text-align: center;
+font-size: 1.25em;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  letter-spacing: .5em;
+  color: rgb(255, 0, 50, 0.5);
+  text-shadow: 3px 3px 3px black;
+
+}
+
+header img {
+  padding: 1em;
+  border-radius: 50%;
+
+}
+
+.about-me {
+  padding: 3em 0;
+  line-height: 1.5;
+  background-color: grey;
+  color:white;
+  text-shadow: 3px 3px 3px black;
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.projects {
+  padding: 3em 0;
+  background-color: lightgrey;
+}
+
+.projects img {
+width: 30%;
+padding: 30px 30px 30px 0;
+
+}
